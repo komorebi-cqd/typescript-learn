@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {//编译选项
+    "target": "ES2016", //配置编译目标代码的版本标准
+    "module": "CommonJS",//配置编译目标使用的模块化标准
+    "lib": ["ES2016"],//包含的库
+    "outDir": "./dist", //输出目录
+    "strictNullChecks": true,//更加严格的空类型检查，null和undefind不能赋值给其他类型了
+  },
+  "include": ["./src"], //指定目录编译
+  // "files": ["./src/index.ts"],//会编译指定文件，和指定文件所有的依赖
+}
