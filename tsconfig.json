@@ -5,6 +5,8 @@
     "lib": ["ES2016"],//包含的库
     "outDir": "./dist", //输出目录
     "strictNullChecks": true,//更加严格的空类型检查，null和undefind不能赋值给其他类型了
+    "strictPropertyInitialization": true,//更加严格的检查属性有没有初始化
+    
   },
   "include": ["./src"], //指定目录编译
   // "files": ["./src/index.ts"],//会编译指定文件，和指定文件所有的依赖
