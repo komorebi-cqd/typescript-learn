@@ -1,4 +1,5 @@
-// import './pock'; //扑克牌例子
+import './pock'; //扑克牌例子
+import intefaceTest from './intefaceTest'
 
 //回调函数：判断数组中的某一项是否满足条件
 //下面这种类型别名不具有通用性，可以使用泛型
